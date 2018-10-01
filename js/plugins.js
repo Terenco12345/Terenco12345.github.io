@@ -4,5 +4,5 @@ var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Basic plugin for manipulating important parameters.","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"MadeWithMv","status":false,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
-{"name":"GALV_MessageSoundEffects","status":true,"description":"Play sound effects when during Show Text event commands.","parameters":{"Delay Time":"4","Default Talk SE":"Cursor1,80,150","Default Confirm SE":"Cursor2,80,150","-----------":"","Quick SE 1":"Cursor1,80,150","Quick SE 2":"Cursor2,80,150","Quick SE 3":"","Quick SE 4":"KieranSpeakSoundProtein,80,150"}}
+{"name":"PlayMsgWndCharSE","status":true,"description":"Play SE for each character at message window","parameters":{"default SE":"2","battle default SE":"0","interval":"5","name1":"Cursor1","volume1":"90","pitch1":"100","name2":"KieranSpeakSoundProtein","volume2":"75","pitch2":"125"}}
 ];
