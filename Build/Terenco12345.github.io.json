@@ -1,0 +1,17 @@
+{
+"companyName": "Cheesegr8er",
+"productName": "Vagrant Wizard",
+"productVersion": "0.1",
+"dataUrl": "Terenco12345.github.io.data.unityweb",
+"wasmCodeUrl": "Terenco12345.github.io.wasm.code.unityweb",
+"wasmFrameworkUrl": "Terenco12345.github.io.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "Terenco12345.github.io.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0b5"
+}

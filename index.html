@@ -1,41 +1,25 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<link rel="apple-touch-icon" sizes="57x57" href="site icon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="site icon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="site icon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="site icon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="site icon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="site icon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="site icon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="site icon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="site icon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="site icon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="site icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="site icon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="site icon/favicon-16x16.png">
-	<link rel="manifest" href="site icon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="site icon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<title>HAPPY BIRTHDAY</title>
-</head>
-
-<body>
-	
-	<img src="images/hbnerd.png"></img>
-	<img src="images/koichiramona.png"></img>
-	<p></p>
-	<p id="para1" style="font-family: Comic Sans MS">Click any of the buttons below to see birthday messages:</p>
-	<button onclick="window.location.href='pages/terence.html'">Terence</button>
-	<button onclick="window.location.href='pages/kieran.html'">Kieran</button>
-	<button onclick="window.location.href='pages/chloe.html'">Chloe</button>
-	<button onclick="window.location.href='pages/liam.html'">Liam</button>
-	<button onclick="window.location.href='pages/james.html'">James</button>
-	<button onclick="window.location.href='pages/amber.html'">Amber</button>
-	<button onclick="window.location.href='pages/isaac.html'">Isaac</button>
-	
-</body>
-
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Vagrant Wizard</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Terenco12345.github.io.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Vagrant Wizard</div>
+      </div>
+    </div>
+  </body>
 </html>
